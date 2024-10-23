@@ -7,6 +7,9 @@ pub const BOUNDS: (f32, f32) = (
     WINDOW_HEIGHT - PADDING_BOUNDS,
 );
 
+pub const BULLET_SPAWN_INTERVAL: f32 = 0.1;
+pub const BULLET_SPEED: f32 = 5.0;
+
 pub const PLAYER_SPRITE: &str = "player.png";
 pub const PLAYER_SIZE: (f32, f32) = (144., 75.);
 pub const PLAYER_LASER_SPRITE: &str = "laser_a.png";
