@@ -8,7 +8,8 @@ pub const BOUNDS: (f32, f32) = (
 );
 
 pub const BULLET_SPAWN_INTERVAL: f32 = 0.1;
-pub const BULLET_SPEED: f32 = 5.0;
+pub const BULLET_SPEED: f32 = 10.0;
+pub const BULLET_TIME_SECS: f32 = 0.5;
 
 pub const PLAYER_SPRITE: &str = "player.png";
 pub const PLAYER_SIZE: (f32, f32) = (144., 75.);
